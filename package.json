@@ -5,7 +5,17 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "connect": "~3.1.1",
-    "serve-static": "~1.5.3"
+    "connect": "^3.6.6",
+    "extract-loader": "^3.1.0",
+    "node-sass": "^4.11.0",
+    "serve-static": "^1.13.2",
+    "webpack": "^4.28.3"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "webpack-cli": "^3.2.0"
   }
 }
